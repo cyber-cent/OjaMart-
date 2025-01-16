@@ -51,7 +51,7 @@ let products = [
         </div>
         <h3>${product.name}</h3>
         <p>${product.description}</p>
-        <div class="price"><p> &#8358;${product.price.toLocaleString()}</p></div>
+        <div class="price"> "\20A6";${product.price.toLocaleString()}</div>
         <button class="whatsapp-btn" onclick="addToCart(${product.id})">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
             <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2M8.46 14.45L7.1 18.5L11.15 17.15L11.16 17.14C12.67 18.11 14.62 18.12 16.14 17.14C18.38 15.74 19.5 13.08 18.95 10.45C18.41 7.83 16.16 5.75 13.5 5.75C9.65 5.75 6.5 8.9 6.5 12.75C6.5 13.89 6.83 14.97 7.4 15.91L7.46 14.45H8.46Z"/>
@@ -86,7 +86,7 @@ let products = [
     }
   
     const message = cart.map(item => 
-      `${item.name} - <p> &#8354;${item.price.toLocaleString()} </p>`
+      `${item.name} - \20A6;${item.price.toLocaleString()} `
     ).join('\n');
   
     const total = cart.reduce((sum, item) => sum + item.price, 0);
