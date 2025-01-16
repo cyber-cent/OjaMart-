@@ -86,13 +86,13 @@ let products = [
     }
   
     const message = cart.map(item => 
-      `${item.name} - N;${item.price.toLocaleString()} `
+      `${item.name} - N ${item.price.toLocaleString()} `
     ).join('\n');
   
     const total = cart.reduce((sum, item) => sum + item.price, 0);
     
     const whatsappMessage = encodeURIComponent(
-      `Hi! I would like to order:\n\n${message}\n\nTotal: N;${total.toLocaleString()}`
+      `Hi! I would like to order:\n\n${message}\n\nTotal: N ${total.toLocaleString()}`
     );
   
     window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, '_blank');
