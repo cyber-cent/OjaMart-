@@ -21,12 +21,26 @@ let products = [
       image: src="https://i.ibb.co/B4t3b3s/pbo.jpg"
     },
     {
-      id: 2,
-      name: "Itel Power Bank",
+      id: 4,
+      name: "Oraimo Power Bank",
       price: 15000,
-      description: "Itel strong 15,000 battery capacity power bank",
+      description: "oraimo strong 15,000 battery capacity power bank",
       image: src="https://i.ibb.co/JtR5Lxj/pb.jpg"
+    }, {
+      id: 5,
+      name: "All in one jamb tools for students",
+      price:Free now,
+      description: "All in one tools containing past question,Video subject by subject, Lekki headmaster jamb novel",
+      image: src="https://i.ibb.co/G0z0Kr6/received-1292880918594331.jpg"
     },
+     {
+      id: 6,
+      name: "Alli Exchange",
+      price: inbox,
+      description: "we buy and sell crypto currencies and other financial assets ",
+      image: src="https://i.ibb.co/xGC1b03/01.jpg"
+    },
+    
    
   ];
   
