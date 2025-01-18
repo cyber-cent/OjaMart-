@@ -27,20 +27,7 @@ let products = [
       description: "oraimo strong 15,000 battery capacity power bank",
       image: src="https://i.ibb.co/JtR5Lxj/pb.jpg"
     }, 
-    {
-      id: 5,
-      name: "All in one jamb tools for students",
-      price: 0,
-      description: "All in one tools containing past question,Video subject by subject, Lekki headmaster jamb novel",
-      image: src="https://i.ibb.co/G0z0Kr6/received-1292880918594331.jpg"
-    },
-     {
-      id: 6,
-      name: "Alli Exchange",
-      price: 0,
-      description: "we buy and sell crypto currencies and other financial assets ",
-      image: src="https://i.ibb.co/xGC1b03/01.jpg"
-    },
+    
     
    
   ];
