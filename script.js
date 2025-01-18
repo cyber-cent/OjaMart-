@@ -30,7 +30,7 @@ let products = [
     {
       id: 5,
       name: "All in one jamb tools for students",
-      price:Free now,
+      price: 0,
       description: "All in one tools containing past question,Video subject by subject, Lekki headmaster jamb novel",
       image: src="https://i.ibb.co/G0z0Kr6/received-1292880918594331.jpg"
     },
