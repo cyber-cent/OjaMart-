@@ -37,7 +37,7 @@ let products = [
      {
       id: 6,
       name: "Alli Exchange",
-      price: inbox,
+      price: 0,
       description: "we buy and sell crypto currencies and other financial assets ",
       image: src="https://i.ibb.co/xGC1b03/01.jpg"
     },
