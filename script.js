@@ -26,7 +26,8 @@ let products = [
       price: 15000,
       description: "oraimo strong 15,000 battery capacity power bank",
       image: src="https://i.ibb.co/JtR5Lxj/pb.jpg"
-    }, {
+    }, 
+    {
       id: 5,
       name: "All in one jamb tools for students",
       price:Free now,
