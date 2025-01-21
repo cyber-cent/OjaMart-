@@ -1,17 +1,18 @@
 let products = [
     {
       id: 1,
-      name: "Premium T-Shirt",
-      price: 15000,
-      description: "High-quality cotton t-shirt",
-      image: src="https://i.ibb.co/YdhDh7n/1.jpg"
+      name: "SENWEI GASOLINE GENERATOR",
+      price: 230000,
+      description: "Note: You'll check everything before payment and receipt is available
+          ",
+      image: src="https://i.ibb.co/yhS91RV/IMG-20250119-WA0067.jpg"
     },
     {
       id: 2,
-      name: "Designer Jeans",
-      price: 25000,
-      description: "Comfortable slim-fit jeans",
-      image: src="https://i.ibb.co/GHcChXk/2.png"
+      name: "JINCHENG MOTORCYCLE",
+      price: 800000,
+      description: "everything working perfectly just buy and drive, Note: Receipt Available",
+      image: src="https://i.ibb.co/dJS0D7K/IMG-20250119-WA0073.jpg"
     },
     {
       id: 3,
