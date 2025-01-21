@@ -3,8 +3,7 @@ let products = [
       id: 1,
       name: "SENWEI GASOLINE GENERATOR",
       price: 230000,
-      description: "Note: You'll check everything before payment and receipt is available
-          ",
+      description: "Note: You'll check everything before payment and receipt is available",
       image: src="https://i.ibb.co/yhS91RV/IMG-20250119-WA0067.jpg"
     },
     {
